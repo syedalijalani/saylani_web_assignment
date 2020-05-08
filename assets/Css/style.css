@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#headertop {
+    background: #316dc3;
+    height: 40px;
+}
+
+#header {
+
+    height: 500px;
+    
+}
+
+#headerbottem {
+    background: #316dc3;
+    height: 30px;
+}
+
+#content {
+    height: 550px;
+}
+
+#status {
+    height: auto;
+    padding: 50px;
+    background-color: #316dc3;
+    color: #fff;
+}
+
+#service {
+    height: auto;
+    padding: 20px;
+}
+
+.glry_dsgn {
+    background-color: white;
+    color: #2755E9;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    height: 200px;
+    box-shadow: 0 0 10px 5px lightgrey;
+}
+
+.Prj_glry {
+    display: flex;
+    background-color: #F7F8FA;
+    padding: 20px 10px 10px 10px;
+    border: 1px solid rgba(231, 235, 240, 0.973);
+    height: 70px;
+    margin: 10px;
+}
+
+#project {
+    height: auto;
+    padding: 30px;
+}
+
+#contect {
+    height: auto;
+    float: left;
+    background-color: #25272E;
+    color: white;
+    padding: 50px;
+}
+
+.bt {
+    border-top: 2px solid green;
+    float: left;
+    width: 50px;
+}
+
+#footer {
+    height: auto;
+    background-color: #0474dd;
+    color: white;
+    float: left;
+    padding: 2px;
+}
+
+ul {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul>li {
+    display: inline;
+    margin: 4px;
+    padding: 4px;
+}
+
+ul.dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    min-width: 180px;
+    white-space: nowrap;
+    background: #fff;
+}
+
+/*Extra CSS for navigation item */
+
+#nav-li {
+    font-weight: 400;
+    margin: 5px 1px 0px 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+#nav-li:hover {
+    background-color: #316DC3;
+    color: white;
+    padding: 7px;
+}
+
+.nav-link, a {
+    color: black;
+}
+
+/*Extra CSS for navigation Dropdown */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+.dropdown-item:hover {
+    background-color: #316DC3;
+    color: white;
+    padding-left: 2px;
+}
+
+/* Social media icons CSS */
+
+#soc_icon {
+    padding: 10px 15px;
+    /* background-color: #316DC3; */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .5s;
+    transition-timing-function: linear;
+}
+
+#soc_icon:hover {
+    /* background-color: #316DC3; */
+    background-color: #2A7BED;
+}
